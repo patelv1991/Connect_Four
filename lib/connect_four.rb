@@ -89,7 +89,7 @@ class ConnectFour
     def get_name
       begin
         input = gets.chomp
-        raise "Not enough chars entered" if input.nil?
+        raise "Not enough chars entered" if input == ""
       rescue => error
         print "Please enter at least one character: "
         retry
