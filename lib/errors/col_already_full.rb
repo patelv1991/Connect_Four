@@ -1,0 +1,2 @@
+class ColAlreadyFull < StandardError
+end

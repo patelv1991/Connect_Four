@@ -1,0 +1,2 @@
+class NotPossibleToWinError < StandardError
+end
